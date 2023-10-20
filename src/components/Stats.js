@@ -5,6 +5,17 @@ export default function Stats({ items }) {
         <p className="stats">
           <em>Start adding some items to your bag!</em>
         </p>
+        <p>
+          Made with{" "}
+          <span
+            style={{
+              color: "#f1356d",
+            }}
+          >
+            ❤
+          </span>{" "}
+          by Pranjal Pratap Singh with React ⚛{" "}
+        </p>
       </footer>
     );
   const itemsLength = items.length;
@@ -19,6 +30,17 @@ export default function Stats({ items }) {
         💼 You have ${itemsLength} items on your list, and you have already
         packed ${itemsPacked} items (${percentage}%)`}
       </em>
+      <p>
+        Made with{" "}
+        <span
+          style={{
+            color: "#f1356d",
+          }}
+        >
+          ❤
+        </span>
+        by Pranjal Pratap Singh with React ⚛{" "}
+      </p>
     </footer>
   );
 }
