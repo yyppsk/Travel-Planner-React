@@ -107,6 +107,8 @@ input {
   gap: 1.2rem;
   justify-content: center;
   align-content: start;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .list li {
