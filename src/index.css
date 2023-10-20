@@ -181,3 +181,20 @@ input[type="checkbox"] {
     font-size: 1.4rem;
   }
 }
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 2.8rem;
+  }
+  .add-form input {
+    width: 34rem;
+  }
+
+  .list ul {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    font-size: 1.6rem;
+  }
+  .stats {
+    font-size: 1.4rem;
+  }
+}
