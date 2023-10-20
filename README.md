@@ -1,3 +1,7 @@
+# 🌴✈ Travel Planner App
+
+##  Building Status [![Netlify Status](https://api.netlify.com/api/v1/badges/c56fe5dd-73c6-4fbc-bcbc-c23f988172fb/deploy-status)](https://app.netlify.com/sites/travelplannereasy/deploys)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
