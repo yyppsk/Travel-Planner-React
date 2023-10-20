@@ -138,3 +138,46 @@ input[type="checkbox"] {
   font-weight: 700;
   padding: 3.2rem 0;
 }
+
+/* Media query for screens below 930px */
+@media (max-width: 929px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 873px) {
+  .add-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .add-form input {
+    width: 48rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .list ul {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .stats {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .add-form input {
+    width: 40rem;
+  }
+
+  .list ul {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    font-size: 1.6rem;
+  }
+  .stats {
+    font-size: 1.4rem;
+  }
+}
